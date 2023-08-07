@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #9085d1;
+  --white-color: white;
+  --grey-color: #c3c8cd;
+}
+
+.btn {
+  width: 119px;
+  height: 48px;
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
